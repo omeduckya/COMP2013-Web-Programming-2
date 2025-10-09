@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.ColorBox {
+width: 50px;
+height: 50px;
+color: black;
+cursor: pointer;
+
+}
+
+.ColorBoxesContainer {
+width: 250px;
+height: 250px;
+border:  2px solid black;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+
+}
+
+.RowContainer {
+  display: flex;
+  justify-content:center;
+
+}
+
+@media screen and (max-width: 480px) {
+ 
+  .ColorBoxesContainer{
+    flex-direction: column;
+  }
+  
+}
